@@ -1,0 +1,54 @@
+html {
+  font-size: 14px;
+}
+
+:root {
+  font-family:
+    'Avenir Next', Avenir, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #434343;
+  background:
+    radial-gradient(circle at top, rgba(185, 55, 94, 0.12), transparent 28%),
+    linear-gradient(180deg, #fff4f7 0%, #fdf6f0 55%, #f4f7f2 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --accent: #B9375E;
+  --accent-hover: #9e2a4f;
+  --accent-secondary: #CEDDBB;
+  --accent-gold: #BE9A60;
+  --text-color: #434343;
+  --muted-text: #7a6068;
+  --border: rgba(185, 55, 94, 0.13);
+  --panel-bg: rgba(255, 244, 247, 0.85);
+  --chip-bg: rgba(255, 255, 255, 0.75);
+  --shadow-soft: 0 18px 40px rgba(65, 20, 38, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
